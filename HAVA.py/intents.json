@@ -1,0 +1,147 @@
+{
+    "intents":[
+
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey","wake up","hawa"
+            ],
+            "responses":["Hello!","Welcome!","How can I help you?","Hello!","I am here","At your service"
+            ]
+        },
+
+        {
+            "tag":"outro",
+            "patterns":["Goodbye","Bye","sleep","see you later","exit","shut down","turn off"
+            ],
+            "responses":["Bye Sir","Have a great day!","See you later","Okay","Lets meet up again!","At your command!"
+            ]
+        },
+
+        {
+            "tag":"health",
+            "patterns":["how are you","how are you doing","how do you feel","are you good","whats up"
+            ],
+            "responses":["I am all good","I am great","Never been better","All good","Perfectly fine"
+            ]
+        },
+        {
+            "tag":"aboutHava",
+            "patterns":["who are you","tell me about you","what are you","tell me your name","what is your name","introduce yourself","please introduce yourself","can you introduce yourself","tell me about yourself"
+            ],
+            "responses":["I am Haa vaa. I am an virtual assistant designed especially for this home automation prototype","My name is haa vaa, an AI prototype created for home automation prototype"
+            ]
+        },
+        {
+            "tag":"work",
+            "patterns":["what can you do ","what is your use","how can you help me","what is your function","why are you here","why do you exist"
+            ],
+            "responses":["I can assist you with home automation and maintain your workflow. I am specifically designed to give you access to control your home.","I was created to assist you to automate and control home. I am also able to organise your work flow"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["tell me current time ","what is time","what time is it","what hour is it","time"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["tell me todays date ","what is the date","what date is it","which date is it","date"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["tell me todays day ","which day is today","what day is it","which day is it","day"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia","do you know about","tell me about","what do you know about","give information about","can you tell me about"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search"
+            ],
+            "responses":["google"
+            ]
+        },
+        {
+            "tag":"OpenDoor",
+            "patterns":["can you open the door","please open the door","will you open the door","open the door"
+            ],
+            "responses":["Opening the door"
+            ]
+        },
+        {
+            "tag":"GarageDoorOn",
+            "patterns":["can you open garage door","please open garage door","will you open garage door","open garage door"
+            ],
+            "responses":["Opening garage door"
+            ]
+        },
+        {
+            "tag":"CloseDoor",
+            "patterns":["can you close garage door","please close garage door","will you close garage door","close garage door"
+            ],
+            "responses":["Closing garage door"
+            ]
+        },
+        {
+            "tag":"GarageDoorOff",
+            "patterns":["can you close the door","please close the door","will you close the door","close the door"
+            ],
+            "responses":["Closing the door"
+            ]
+        },
+        {
+            "tag":"HallLightOpen",
+            "patterns":["can you turn on all lights","please turn on all lights","will you turn on all lights","turn on all lights"
+            ],
+            "responses":["Turning on hall lights"
+            ]
+        },
+        {
+            "tag":"HallLightClose",
+            "patterns":["can you turn off all lights","please turn off all lights","will you turn off all lights","turn off all lights"
+            ],
+            "responses":["Turning off hall lights"
+            ]
+        },
+        {
+            "tag":"RoomLightOpen",
+            "patterns":["can you turn on room lights","please turn on room lights","will you turn on room lights","turn on room lights"
+            ],
+            "responses":["Turning on room lights"
+            ]
+        },
+        {
+            "tag":"RoomLightClose",
+            "patterns":["can you turn off room lights","please turn off room lights","will you turn off room lights","turn off room lights"
+            ],
+            "responses":["Turning off room lights"
+            ]
+        },
+        {
+            "tag":"SocketOn",
+            "patterns":["can you turn on Socket","please turn on Socket","will you turn on Socket","turn on Socket"
+            ],
+            "responses":["Turning on Socket"
+            ]
+        },
+        {
+            "tag":"SocketOff",
+            "patterns":["can you turn off Socket","please turn off Socket","will you turn off Socket","turn off Socket"
+            ],
+            "responses":["Turning off Socket"
+            ]
+        }
+    ]
+}
